@@ -1,1 +1,1 @@
-from networksecurity.constant.training_pipline import *
+from networksecurity.constant.training_pipeline import *
