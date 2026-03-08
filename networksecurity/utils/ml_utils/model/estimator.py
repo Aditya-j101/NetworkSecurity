@@ -12,7 +12,7 @@ class NetworkModel:
             self.preprocessor = preprocessor
             self.model = model
         except Exception as e:
-            raise NetworkSecurity(e,sys)
+            raise NetworkSecurityException(e,sys)
         
     def predict(self, x):
         try:
